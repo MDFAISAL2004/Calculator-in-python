@@ -1,0 +1,21 @@
+Number1=int(input("Enter the ist number:"))
+Number2=int(input("Enter the 2nd number:"))
+print("         **Calculator**")
+print("Enter + for Addition :")
+print("Enter _ for subtraction :")
+print("Enter * for Multipliction :")
+print("Enter / for division : ")
+operator=input("")
+if operator == "+" :
+  sum=Number1+Number2
+  print(f"sum of two number is {sum}")
+elif operator =="-" :
+  subtract=Number1-Number2
+  print(f"subtraction of two number is {subtract}")
+elif operator =="*" :
+  multip=Number1*Number2
+  print(f"miltioplication of of two number is {multip}")
+elif operator == "/" :
+  division =Number1/Number2
+  print(f"division of two number is {division}")
+else : print("you Enter a wrong operator:")
